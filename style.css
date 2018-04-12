@@ -76,6 +76,11 @@ h1 strong span {
   text-align: justify;
   border-left: solid 6px #fff;
   padding-left:2rem;
+  font-size:.8rem;
+}
+
+#articles p {
+    break-inside:avoid-column;
 }
 
 #articles p strong {
