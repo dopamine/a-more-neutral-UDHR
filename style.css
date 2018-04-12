@@ -1,0 +1,96 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Playfair+Display:400,400i,700,700i,900');
+/*
+ */
+
+body {
+  padding:64px 120px;
+  font-family: 'Nunito Sans', sans-serif;
+  background:#eee;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Playfair Display', serif;
+}
+
+#header {
+  height:200px;
+}
+
+.un-logo {
+  background-color:#aaa;
+  width:300px;
+  height:300px;
+  position:absolute;
+  top:0;
+  left:120px;
+}
+
+h1 {
+  font-style: normal;
+  text-transform:uppercase;
+  font-size:3.2rem;
+  display:block;
+  margin: 86px 0 0 312px;
+  line-height: 4rem;
+}
+h1 strong {
+  font-style: normal;
+  font-size:6.7rem;
+  text-transform:capitalize;
+}
+h1 strong span {
+  color:#555;
+}
+
+#preamble {
+  columns: 2;
+  column-gap:2rem;
+  margin:24px 0;
+  font-family: 'Playfair Display', serif;
+  font-weight:700;
+  font-style:italic;
+  text-align: justify;
+  margin:32px 0 64px 0;
+}
+
+#preamble em {
+  display:inline-block;
+  background:#777;
+  color:#fff;
+  padding:2px 12px;
+  text-transform:uppercase;
+  font-style:normal;
+  font-size:.7rem;
+  font-weight:400;
+}
+#preamble strong {
+  font-style:normal;
+}
+
+#articles {
+  columns: 3;
+  column-rule: solid 6px #fff;
+  column-gap:5rem;
+  text-align: justify;
+  border-left: solid 6px #fff;
+  padding-left:2rem;
+}
+
+#articles p strong {
+  font-family: 'Playfair Display', serif;
+  display:inline-block;
+  background:#fff;
+  color:#000;
+  padding:2px 12px;
+  text-transform:uppercase;
+  font-style:normal;
+  font-size:.7rem;
+  font-weight:400;
+
+}
+
+.forcebreak {
+  break-after:column;
+}
